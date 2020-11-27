@@ -10,7 +10,7 @@ body
 :root
 {
     --primary-color:#EF4444;
-    --secondary-color: #78716C;
+    --gray-color: #78716C;
 }
 
 /*container*/
@@ -104,3 +104,27 @@ hr
 
 /* header */
 
+.hero
+{
+padding: 2em;
+}
+
+.hero .hero-image
+{   
+    max-width: 300px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading
+{
+    color: var(--gray-color);
+    padding-top: 1em;
+}
+
+.hero .hero-heading .hero-inverted
+{
+    color: var(--primary-color);
+}
+
+/* section */
