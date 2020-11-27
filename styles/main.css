@@ -56,3 +56,14 @@ hr
 }
 
 /*list*/
+
+.lists-non-bullet
+{
+    list-style-type: none;
+}
+
+.lists-items-inline 
+{
+    display: inline;
+    padding: 0em 1em;
+}   
