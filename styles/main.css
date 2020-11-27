@@ -9,7 +9,7 @@ body
 
 :root
 {
-    --primary-color:#22D3EE;
+    --primary-color:#EF4444;
     --secondary-color: #78716C;
 }
 
@@ -49,5 +49,10 @@ body
     border-radius: 0.5em;
 }
 
+/*this might be bad practice to apply here @hierarchy @... */
+hr
+{
+    margin: 1em 0em;
+}
 
-
+/*list*/
