@@ -5,10 +5,12 @@ body
     font-family: 'IBM Plex Mono', monospace;
 }
 
+/*css variables*/
+
 :root
 {
-    primary-color:#22D3EE;
-    secondary-color:#D4D4D8;
+    --primary-color:#22D3EE;
+    --secondary-color: #78716C;
 }
 
 /*container*/
@@ -25,6 +27,27 @@ body
     margin: auto;
 }
 
+/*links*/
+
+.links
+{
+    text-decoration: none;
+    padding: 0.5em 1em;
+}
+
+.links-primrary
+{
+    background-color: var(--primary-color);
+    border-radius: 0.5em;
+    color: white;
+}
+
+.links-secondary
+{
+    color:var(--primary-color);
+    border: 1px solid var(--primary-color);
+    border-radius: 0.5em;
+}
 
 
 
