@@ -11,14 +11,14 @@ body
 {
     --primary-color:#EF4444;
     --gray-color: #78716C;
+    --off-white:#E7E5E4;
 }
 
 /*container*/
 
 .container
 {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding: 0em 1em;
 }
 
 .container-centered
@@ -128,3 +128,18 @@ padding: 2em;
 }
 
 /* section */
+
+.section
+{
+    padding: 2em;
+}
+
+.section h1
+{
+    text-align: center;
+}
+
+.section-ow
+{
+    background-color:var(--off-white);
+}
