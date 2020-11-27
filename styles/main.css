@@ -3,6 +3,7 @@
 body
 {
     font-family: 'IBM Plex Mono', monospace;
+    margin: 0px;
 }
 
 /*css variables*/
@@ -16,9 +17,14 @@ body
 
 /*container*/
 
+/* .margin-md
+{
+    margin: 2rem;
+} */
+
 .container
 {
-    padding: 0em 1em;
+    padding: 0rem 1rem;
 }
 
 .container-centered
@@ -31,14 +37,15 @@ body
 
 .links
 {
+    box-sizing: border-box;
     text-decoration: none;
-    padding: 0.5em 1em;
+    padding: 0.5rem 1rem;
 }
 
 .links-primrary
 {
     background-color: var(--primary-color);
-    border-radius: 0.5em;
+    border-radius: 0.5rem;
     color: white;
 }
 
@@ -46,13 +53,13 @@ body
 {
     color:var(--primary-color);
     border: 1px solid var(--primary-color);
-    border-radius: 0.5em;
+    border-radius: 0.5rem;
 }
 
 /*this might be bad practice to apply here @hierarchy @... */
 hr
 {
-    margin: 1em 0em;
+    margin: 2rem 0rem;
 }
 
 /*list: what is best inline on list item or inline on list type ?*/
@@ -65,7 +72,7 @@ hr
 .lists-items-inline 
 {
     display: inline;
-    padding: 0em 1em;
+    padding: 0rem 1rem;
     
 }   
 
@@ -80,8 +87,8 @@ hr
 {
     background-color: var(--primary-color);
     color: white;
-    border-top-left-radius: 1em;
-    padding: 1em;
+    border-top-left-radius: 1.5em;
+    padding: 1rem;
 }
 
 .nav-pills .links
@@ -99,14 +106,15 @@ hr
 .navigation .navbrand
 {
     font-weight: bold;
-    font-size: 1.2em;
+    font-size: 1.2rem;
 }
 
 /* header */
 
 .hero
 {
-padding: 2em;
+padding: 2rem;
+padding-top: 5rem;
 }
 
 .hero .hero-image
@@ -119,7 +127,8 @@ padding: 2em;
 .hero .hero-heading
 {
     color: var(--gray-color);
-    padding-top: 1em;
+    padding-top: 1rem;
+    text-align: center;
 }
 
 .hero .hero-heading .hero-inverted
@@ -131,7 +140,7 @@ padding: 2em;
 
 .section
 {
-    padding: 2em;
+    padding: 2rem;
 }
 
 .section h1
@@ -150,22 +159,23 @@ padding: 2em;
 {
     background-color: var(--primary-color);
     color: white;
-    border-bottom-left-radius: 1em;
-    padding: 1em;
+    border-bottom-left-radius: 1.5rem;
+    padding: 2rem 1rem;
+    text-align: center;
 }
 
-.footer .footbrand
-{
-    font-weight: bold;
-    font-size: 1.2em;
-}
-
-.footpills .links
+.footer .links
 {
     color: white;
 }
 
-.footer .footpills
+.footer .footer-header
 {
-    text-align: right;
+    font-weight: bold;
+    font-size: large;
+}
+
+.footer ul
+{
+    padding-inline-start: 0px   ;
 }
