@@ -179,3 +179,12 @@ padding-top: 5rem;
 {
     padding-inline-start: 0px   ;
 }
+
+.social-image
+{   
+    max-width: 50px;
+    display: inline;
+    margin: auto;
+    background-color: white;
+    border-radius: 0.4rem;
+}
