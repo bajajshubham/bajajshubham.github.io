@@ -17,8 +17,8 @@ body
 
 .container
 {
-    padding-left: 1em;
-    padding-right: 1em;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 .container-centered
@@ -55,7 +55,7 @@ hr
     margin: 1em 0em;
 }
 
-/*list*/
+/*list: what is best inline on list item or inline on list type ?*/
 
 .lists-non-bullet
 {
@@ -66,4 +66,41 @@ hr
 {
     display: inline;
     padding: 0em 1em;
+    
 }   
+
+
+/*navigation*/
+.nav-link-active
+{
+    font-weight: bold;
+}
+
+.navigation
+{
+    background-color: var(--primary-color);
+    color: white;
+    border-top-left-radius: 1em;
+    padding: 1em;
+}
+
+.nav-pills .links
+{   
+    color: white;
+
+}
+
+.navigation .nav-pills
+{
+    text-align: right;
+    
+}
+
+.navigation .navbrand
+{
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+/* header */
+
