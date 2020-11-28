@@ -62,6 +62,10 @@ hr
     margin: 2rem 0rem;
 }
 
+br
+{
+    margin-bottom: 1rem;
+}
 /*list: what is best inline on list item or inline on list type ?*/
 
 .lists-non-bullet
@@ -194,4 +198,10 @@ padding-top: 5rem;
     text-decoration: none;
     box-sizing: border-box;
     color: var(--primary-color);
+}
+
+.span-guru-text-decoration
+{
+    text-decoration: underline;
+    font-weight: bold;
 }
