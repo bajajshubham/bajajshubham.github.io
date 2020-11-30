@@ -205,3 +205,10 @@ padding-top: 5rem;
     text-decoration: underline;
     font-weight: bold;
 }
+
+/* projects */
+
+.projects-h1-margin-bottom
+{
+    margin-bottom: 0rem;
+}
