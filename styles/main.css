@@ -212,3 +212,8 @@ padding-top: 5rem;
 {
     margin-bottom: 0rem;
 }
+
+.root-justify-text
+{
+    text-align: justify;
+}
