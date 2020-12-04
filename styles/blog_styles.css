@@ -1,0 +1,56 @@
+/*blogs */
+
+/* .links-blogs
+{
+    text-decoration: none;
+    box-sizing: border-box;
+    color: var(--primary-color);
+}
+
+*/
+
+.main ul li
+{
+    margin:1rem auto;
+    margin-left: 1rem;
+    /* margin-right: 1rem; */
+    /* margin-left: 1rem; */
+    /* text-align: justify; */
+}
+
+.main ul li p, div p, div h3, div table
+{
+    margin-top: .5rem;
+    /* margin-left: 1rem;
+    margin-right: 1rem; */
+}
+
+.main ul li h2 a, div h2
+{
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.main div img
+{
+    display: block;
+    max-width: var(--max-width-blog-img);
+    margin:2rem auto;
+}
+
+.main div p a, div li a
+{
+    color: var(--primary-color);
+}
+
+/* specific to one page only */
+.span-guru-text-decoration
+{
+    text-decoration: underline;
+    font-weight: bold;
+} 
+
+/* .main div p ul li
+{
+    margin-right: .5rem;
+} */
