@@ -1,4 +1,3 @@
-function js_load()
-{
+function js_load() {
     document.body.style.visibility = 'visible';
 }
