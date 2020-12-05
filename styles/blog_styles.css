@@ -54,3 +54,15 @@
 {
     margin-right: .5rem;
 } */
+
+.blog-general-bachelors-table td,th
+{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.blog-general-bachelors-table tr:nth-child(even)
+{
+    background-color: var(--off-white);
+}
