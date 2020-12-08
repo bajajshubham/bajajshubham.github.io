@@ -10,10 +10,10 @@
     /* text-align: justify; */
 }
 
-.main .links {
-    /* margin-top: auto;
-   margin-bottom: auto;
-   margin-right: auto;
-   margin-left: ; */
-    margin: auto;
+.main .links .links-primrary{
+  margin-right: 1rem;
 }
+
+/* .main .links .links-secondary{
+    margin-left: .5rem;
+  } */
