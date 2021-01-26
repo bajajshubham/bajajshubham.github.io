@@ -1,0 +1,47 @@
+h2, .h2 {
+    font-size: 1.3125em;
+}
+
+a {
+    color: var(--primary-color);
+    text-decoration-skip-ink: auto;
+    word-wrap: break-word;
+}
+
+#main .container article header h3 a:hover{
+    text-decoration: underline;
+}
+
+small,.text-small {
+    font-size: .9375em;
+}
+
+.text-muted {
+    color: var(--gray-color);
+}
+
+h3, .h3 {
+    font-size: 1.1875em;
+}
+
+h4, h5, h6, .h4, .h5, .h6 {
+    font-size: 1em;
+}
+
+.text-normal {
+    font-weight: normal;
+    font-style: normal;
+}
+
+.link-no-underline, .nav-secondary a {
+    text-decoration: none;
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    /* font-size: 30px; */
+    /* text-align: center; */
+}
+
